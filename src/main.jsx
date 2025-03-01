@@ -6,7 +6,7 @@ import AnimatedApp from './AnimatedApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    <AnimatedApp />
+    <App />
+    {/* <AnimatedApp /> */}
   </StrictMode>,
 )
