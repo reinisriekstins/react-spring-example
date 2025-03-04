@@ -5,7 +5,7 @@ import './App.css'
 
 const LOGO_HEIGHT = 120;
 
-const superSlowConfig = { ...config.slow, mass: 15, friction: 100, tension: 200 };
+const superSlowConfig = { mass: 15, friction: 100, tension: 200 };
 
 function App() {
   const [coordinates, setCoordinates] = useState({
@@ -16,7 +16,7 @@ function App() {
   const spring = useSpring({
     x: coordinates.x,
     y: coordinates.y,
-    // config: config.slow,
+    // config: config.default,
     // config: config.wobbly,
     config: superSlowConfig,
   })

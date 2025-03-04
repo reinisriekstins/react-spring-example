@@ -32,6 +32,7 @@ function App() {
         style={{
           height: LOGO_HEIGHT,
           position: 'fixed',
+          // transition: 'left 1000ms ease-out, top 1000ms ease-out',
           left: coordinates.x,
           top: coordinates.y,
         }}

@@ -6,8 +6,6 @@
 .logo, .logo-react {
   will-change: filter;
   transition: filter 300ms;
-
-  position: fixed;
 }
 
 .logo-react:hover {
