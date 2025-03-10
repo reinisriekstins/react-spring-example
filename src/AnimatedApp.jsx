@@ -19,7 +19,18 @@ function App() {
     // config: config.default,
     // config: config.wobbly,
     config: superSlowConfig,
+    // // config with duration & easing
+    // // (if you really need to use that)
+    // config: {
+    //   duration: 1000,
+    //   // taken from: https://easings.net/#easeOutSine
+    //   easing: function easeOutSine(x) {
+    //     return Math.sin((x * Math.PI) / 2);
+    //   }
+    // },
   })
+
+  // console.log('spring', spring)
 
   useEffect(() => {
     const listener = (evt) => {
