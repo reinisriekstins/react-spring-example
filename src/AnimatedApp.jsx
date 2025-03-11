@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSpring, animated, config, } from '@react-spring/web'
-import reactLogo from './assets/react.svg'
+import flowCat from './assets/flow-cat.png'
 import './App.css'
 
 const LOGO_HEIGHT = 120;
@@ -48,9 +48,8 @@ function App() {
   return (
     <>
       <animated.img
-        src={reactLogo}
-        className="logo-react"
-        alt="React logo"
+        src={flowCat}
+        className="logo"
         style={{
           height: LOGO_HEIGHT,
           position: 'fixed',
